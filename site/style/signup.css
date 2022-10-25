@@ -14,7 +14,7 @@
 }
 
 .main .container {
-    height: 350px;
+    height: 600px;
     width: 500px;
     background-color: #168C61;
     border-radius: 10px;
@@ -53,7 +53,7 @@ form div input:focus {
     font-size: 28px;
     cursor: pointer;
     border: none;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     padding: 5px;
     color: #131426;
     background-color: whitesmoke;
@@ -82,4 +82,13 @@ form div a {
 form div a:hover {
     color: rgb(202, 202, 202);
     transition: 0.1s;
+}
+
+#termsInfo {
+    margin-bottom: 5px;
+    color: lightgray;
+}
+
+#termsInfo a {
+    color: lightgray;
 }

@@ -5,16 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/login.css">
-    <title>Log in</title>
+    <link rel="stylesheet" href="style/signup.css">
+    <title>Sign up</title>
 </head>
 <body>
     <div class="main">
         <div class="container">
             <div class="title">
-                <h1>Log in</h1>
+                <h1>Sign up</h1>
             </div>
             <form action="#">
+                <div>
+                    <label for="fname">First name</label><br>
+                    <input type="text" name="fname" id="fname" placeholder="First name">
+                </div>
+                <div>
+                    <label for="lname">Last name</label><br>
+                    <input type="text" name="lname" id="lname" placeholder="Last name">
+                </div>
                 <div>
                     <label for="email">Email</label><br>
                     <input type="email" name="email" id="email" placeholder="Email">
@@ -23,11 +31,16 @@
                     <label for="password">Password</label><br>
                     <input type="password" name="password" id="password" placeholder="Password">
                 </div>
-                <input type="submit" value="Log in" id="loginBtn">
+                <div>
+                    <label for="password_repeat">Confirm password</label><br>
+                    <input type="password" name="password_repeat" id="password_repeat" placeholder="Password">
+                </div>
+                <input type="submit" value="Sign up" id="loginBtn">
+                <p id="termsInfo">By signing up, you agree to the <a href="#">Terms and Privacy Policy.</a></p>
                 <p id="errorMsg"></p>
                 <div>
                     <a href="#">Forgot password?</a>
-                    <a href="signup.html">Sign up</a>
+                    <a href="login.html">Log in</a>
                 </div>
             </form>
         </div>
